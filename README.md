@@ -135,21 +135,26 @@ Esto permite una interfaz **ordenada, moderna y fácil de usar**.
 
 # 📁 Estructura del Proyecto
 
+```text
 app
-┣ java/com/example/app3
-┃ ┗ MainActivity.kt
-┣ res
-┃ ┣ layout
-┃ ┃ ┣ activity_main.xml
-┃ ┃ ┣ dialog_agregar_estudiante.xml
-┃ ┃ ┗ item_estudiante.xml
-┃ ┣ anim
-┃ ┃ ┗ anim_item_lista.xml
-┃ ┣ drawable
-┃ ┃ ┗ recursos gráficos
-┃ ┗ values
-┃   ┗ strings.xml
-
+├── java/com/example/app3
+│   └── MainActivity.kt
+├── res
+│   ├── layout
+│   │   ├── activity_main.xml
+│   │   ├── dialog_agregar_estudiante.xml
+│   │   └── item_estudiante.xml
+│   ├── anim
+│   │   └── anim_item_lista.xml
+│   ├── drawable
+│   │   └── recursos_gráficos
+│   └── values
+│       └── strings.xml
+└── gradle
+    └── build.gradle
+    └── build.gradle.kts
+    └── settings.gradle.kts
+ ```
 ---
 
 # 👨‍💻 Desarrolladores
@@ -168,7 +173,9 @@ app
 
 1. Clonar el repositorio
 
-https://github.com/jonas-gc22/App3.git
+```bash
+git clone https://github.com/jonas-gc22/App3.git
+```
 
 2. Abrir **Android Studio**
 
