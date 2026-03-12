@@ -167,8 +167,6 @@ app
 
 ---
 
----
-
 ## 🚀 Cómo Ejecutar el Proyecto
 
 1. Clonar el repositorio
